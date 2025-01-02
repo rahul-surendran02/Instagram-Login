@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: black;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginImg{
+    width: 180px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.fb-logo{
+    width: 15px;
+}
+.form-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(83, 83, 83);
+    width: 350px;
+    height: 420px;
+    margin-top: 8px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background-color: rgb(27, 26, 26);
+    width: 250px;
+    height: 20px;
+    padding: 8px;
+    margin: 3px;
+    border: 1px solid rgb(79, 79, 79);
+    border-radius: 5px;
+}
+.content:hover{
+    background-color:  rgb(48, 48, 48);
+}
+button{
+    background-color: rgb(3, 107, 205);
+    color: rgb(196, 195, 195);
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 35px;
+    width: 270px;
+}
+button:hover{
+    background-color: rgb(196, 195, 195);
+    color: rgb(3, 107, 205);
+    transition: 1s;
+}
+#or{
+    color: gray;
+    font-size: small;
+    margin-top: 20px;
+}
+.Log-link{
+    margin-top: 25px;
+    color: rgb(3, 107, 205);
+
+}
+.Log-link:hover{
+    color: white;
+    text-decoration: none;
+}
+#forgot{
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: small;
+}
+.sign-up{
+    border: 1px solid rgb(83, 83, 83);
+    margin-top: 10px;
+    width: 350px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+#sign{
+    color: white;
+}
+#signup{
+    color: rgb(3, 107, 205);
+}
+.getapp{
+    width: 380px;
+    height: 60px;
+}
+#get{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: small;
+}
+.play{
+    width: 140px;
+    cursor: pointer;
+}
+.micro{
+    width: 120px;
+    cursor: pointer;
+}
+.store{
+    width: 380px;
+    height: 60px;
+    display: flex;
+    margin-top: none;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    margin-top: 110px;
+}
+.copy{
+    color: gray;
+    margin-top: 10px;
+    font-size: small;
+}
+a{
+    color: gray;
+    margin: 5px;
+    font-size: small;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
