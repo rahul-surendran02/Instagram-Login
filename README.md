@@ -13,8 +13,3 @@ A simple clone of the Instagram login page, created using HTML and CSS.
 ## Getting Started
 ### Prerequisites
 - A web browser to view the project.
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/rahul-surendran02/Instagram-Login.git
